@@ -1,0 +1,22 @@
+.outerContainer { 
+    display: flex;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.innerContainer {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 70%;
+}
+
+.listingImage {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}

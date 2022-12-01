@@ -1,0 +1,85 @@
+.container { 
+    width: 100%;
+    align-items: center;
+    max-width: false;
+}
+
+.logo {
+    max-height: 25px;
+    max-width: 25px;
+    padding-right: 1%;
+}
+
+.header {
+    font-size: xx-large;
+    font-weight: 700;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.filterContainer {
+    font-size: medium;
+    font-weight: 200;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.subheader {
+    text-align: left;
+    font-size: large;
+    font-weight: 400;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.subContainer {
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-between;
+}
+
+.subInnerContainer {
+    width: 48%;
+    justify-content: space-between;
+}
+
+.listingsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    max-height: 500px;
+}
+
+.graphContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2%;
+}
+
+.buttons {
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+    padding-top: 2%;
+}
+
+.graphBorder {
+    border-width: 10;
+    border-color: black;
+    background-color: lightgray;
+}
+
+.graph {
+    align-self: center;
+}
